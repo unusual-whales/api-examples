@@ -5,5 +5,4 @@ This jupyter notebook demonstrates how to:
 - Plot them
 
 ### Notes
-- Plots are visible in the `.html` version of the notebook
-
+None
