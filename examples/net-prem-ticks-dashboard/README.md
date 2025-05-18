@@ -5,4 +5,4 @@ This jupyter notebook demonstrates how to:
 - Take the net premium ticks and OHLC price data for each ticker and construct a dashboard
 
 ### Notes
-None
+- Plots are visible in the `.html` version of the notebook
