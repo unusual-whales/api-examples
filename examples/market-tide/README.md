@@ -5,4 +5,4 @@ This jupyter notebook demonstrates how to:
 - Plot them
 
 ### Notes
-None
+- Plots saved as `.png` files and stored in the `lets-plot-images` folder

@@ -5,4 +5,4 @@ This jupyter notebook demonstrates how to:
 - Plot the top bullish impact tickers and top bearish impact tickers
 
 ### Notes
-None
+- Plots saved as `.png` files and stored in the `lets-plot-images` folder
