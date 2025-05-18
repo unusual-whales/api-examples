@@ -1,0 +1,7 @@
+2025-05-16 13:19:51,861|ws_demo|INFO|Connected and joined option_trades:TSLA channel
+2025-05-16 13:19:51,862|ws_demo|INFO|Connected and joined gex:SPY channel
+2025-05-16 13:19:51,862|ws_demo|INFO|Connected and joined gex:QQQ channel
+2025-05-16 13:19:51,862|ws_demo|INFO|Connected and joined gex:IWM channel
+2025-05-16 13:19:51,863|ws_demo|INFO|Connected and joined flow-alerts channel
+2025-05-16 13:21:05,404|ws_demo|INFO|Close connection instruction received
+2025-05-16 13:21:05,455|ws_demo|INFO|Application shutdown requested
