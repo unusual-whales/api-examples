@@ -12,3 +12,24 @@ A collection of heavily-commented sample scripts and notebooks demonstrating how
 ### Websocket: How to stream data from multiple channel and write to multiple outputs
 - `examples/ws-multi-channel-multi-output`
 - This script connects to several different websocket channels (greeks, flow alerts, and all option trades for ticker `TSLA`). It writes results to multiple buffers and flushes those buffers to multiple files once per second. The folder contains example output files as well.
+
+### Earnings and Institutional Holdings
+- `examples/earnings-with-known-institutional-holdings`
+- This notebook collects upcoming earnings information and uses those tickers to analyze high-profile institutional holdings
+
+### Market Tide
+- `examples/market-tide`
+- This notebook collects market tide and OHLC price data (for ticker `SPY`) then plots them
+
+### Flow Alerts
+- `examples/flow-alerts-multiple-tickers`
+- This notebook interacts with the Flow Alerts endpoint to collect filtered data then further refines the results
+- Watch Dan build an earlier version of this same notebook from scratch on Youtube: [https://www.youtube.com/watch?v=pzLo5NqyEQo](https://www.youtube.com/watch?v=pzLo5NqyEQo)
+
+### Top Net Impact Chart
+- `examples/replicate-top-net-impact-chart`
+- This notebook collects data from the powerful Stock Screener endpoint then filters those results to find the biggest net bullish and net bearish impacts before finally plotting them as a bar chart
+
+### Net Premium Ticks Dashboard
+- `examples/net-prem-ticks-dashboard`
+- This notebook gets net premium ticks and OHLC data for a group of tickers then constructs a dashboard of "thumbnail"-type interactive charts for each, allowing the user to monitor premium flow across many tickers easily
