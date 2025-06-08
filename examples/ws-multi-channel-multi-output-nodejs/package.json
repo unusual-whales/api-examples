@@ -1,0 +1,22 @@
+{
+  "name": "ws-stream-nodejs",
+  "version": "1.0.0",
+  "description": "WebSocket streaming implementation in Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "uw-client": "node uw_websocket_client.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["websocket", "streaming", "nodejs", "real-time"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.14.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
