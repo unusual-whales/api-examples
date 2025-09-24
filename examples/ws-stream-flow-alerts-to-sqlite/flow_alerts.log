@@ -1,0 +1,34 @@
+2025-09-18 11:20:34,921|flow_alerts|INFO|Connected and joined flow-alerts channel
+2025-09-18 11:20:36,167|flow_alerts|INFO|Successfully batch inserted (2 records) to DB
+2025-09-18 11:20:41,029|flow_alerts|INFO|Successfully batch inserted (2 records) to DB
+2025-09-18 11:20:45,716|flow_alerts|INFO|Successfully batch inserted (6 records) to DB
+2025-09-18 11:20:48,521|flow_alerts|INFO|Successfully batch inserted (1 records) to DB
+2025-09-18 11:20:56,353|flow_alerts|INFO|Successfully batch inserted (1 records) to DB
+2025-09-18 11:21:03,027|flow_alerts|INFO|Successfully batch inserted (1 records) to DB
+2025-09-18 11:21:05,835|flow_alerts|INFO|Successfully batch inserted (5 records) to DB
+2025-09-18 11:21:09,579|flow_alerts|INFO|Successfully batch inserted (2 records) to DB
+2025-09-18 11:21:13,122|flow_alerts|INFO|Successfully batch inserted (4 records) to DB
+2025-09-18 11:21:19,954|flow_alerts|INFO|Successfully batch inserted (2 records) to DB
+2025-09-18 11:21:27,227|flow_alerts|INFO|Successfully batch inserted (3 records) to DB
+2025-09-18 11:21:30,416|flow_alerts|INFO|Successfully batch inserted (1 records) to DB
+2025-09-18 11:21:36,043|flow_alerts|INFO|Successfully batch inserted (1 records) to DB
+2025-09-18 11:21:42,319|flow_alerts|INFO|Successfully batch inserted (2 records) to DB
+2025-09-18 11:21:47,179|flow_alerts|INFO|Successfully batch inserted (1 records) to DB
+2025-09-18 11:21:50,550|flow_alerts|INFO|Successfully batch inserted (2 records) to DB
+2025-09-18 11:21:52,420|flow_alerts|INFO|Successfully batch inserted (1 records) to DB
+2025-09-18 11:21:56,163|flow_alerts|INFO|Successfully batch inserted (1 records) to DB
+2025-09-18 11:22:03,156|flow_alerts|INFO|Successfully batch inserted (2 records) to DB
+2025-09-18 11:22:06,530|flow_alerts|INFO|Successfully batch inserted (1 records) to DB
+2025-09-18 11:22:13,292|flow_alerts|INFO|Successfully batch inserted (3 records) to DB
+2025-09-18 11:22:16,661|flow_alerts|INFO|Successfully batch inserted (1 records) to DB
+2025-09-18 11:22:20,020|flow_alerts|INFO|Successfully batch inserted (1 records) to DB
+2025-09-18 11:22:24,239|flow_alerts|INFO|Successfully batch inserted (2 records) to DB
+2025-09-18 11:22:30,597|flow_alerts|INFO|Successfully batch inserted (3 records) to DB
+2025-09-18 11:22:45,103|flow_alerts|INFO|Successfully batch inserted (3 records) to DB
+2025-09-18 11:22:51,461|flow_alerts|INFO|Successfully batch inserted (1 records) to DB
+2025-09-18 11:22:53,832|flow_alerts|INFO|Shutdown signal received
+2025-09-18 11:22:53,833|flow_alerts|INFO|Gracefully shutting down...
+2025-09-18 11:22:53,833|flow_alerts|INFO|Close connection instruction received
+2025-09-18 11:22:53,839|flow_alerts|INFO|Successfully batch inserted (1 records) to DB
+2025-09-18 11:22:53,866|flow_alerts|INFO|WebSocket task cancelled successfully
+2025-09-18 11:22:53,866|flow_alerts|INFO|Application shutdown complete
