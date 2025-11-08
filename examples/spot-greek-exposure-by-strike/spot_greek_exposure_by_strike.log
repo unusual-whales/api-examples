@@ -1,0 +1,41 @@
+2025-10-22 12:50:08,049|spot_greek_exposure_by_strike|INFO|Starting spot greek exposure by strike main loop...
+2025-10-22 12:50:08,059|spot_greek_exposure_by_strike|INFO|Database table ensured
+2025-10-22 12:50:09,088|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 12:50:09,090|spot_greek_exposure_by_strike|INFO|Starting scheduler...
+2025-10-22 12:51:14,281|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 12:52:14,514|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 12:53:14,397|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 12:54:14,354|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 12:55:14,439|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 12:56:14,344|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 12:57:14,458|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 12:58:12,114|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 12:59:14,219|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 13:00:14,260|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 13:01:14,357|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 13:02:12,149|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 13:03:14,339|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 13:04:16,584|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 13:05:14,171|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 13:06:12,270|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 13:07:14,346|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 13:08:14,295|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 13:09:14,469|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 13:10:12,352|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 13:11:14,784|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 13:12:15,036|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 13:13:14,468|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 13:14:12,685|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 13:15:14,680|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 13:16:14,674|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 13:17:14,626|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 13:18:12,078|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 13:19:14,389|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 13:20:14,417|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 13:21:14,336|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 13:22:12,174|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 13:23:14,141|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 13:24:14,549|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 13:25:14,476|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 13:26:12,205|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB
+2025-10-22 13:27:14,354|spot_greek_exposure_by_strike|INFO|Successfully batch inserted (1284 records) to DB

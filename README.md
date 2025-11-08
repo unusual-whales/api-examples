@@ -9,9 +9,21 @@ A collection of heavily-commented sample scripts and notebooks demonstrating how
 
 ## Examples
 
+### Websocket: How to stream flow alerts into a local SQLite database
+- `examples/ws-stream-flow-alerts-to-sqlite`
+- This python script connects to the `flow-alerts` websocket channel and streams all Flow Alerts to a buffer and flushing to a SQLite database once per second. The folder contains example output files as well.
+
 ### Websocket: How to stream data from multiple channel and write to multiple outputs
 - `examples/ws-multi-channel-multi-output`
-- This script connects to several different websocket channels (greeks, flow alerts, and all option trades for ticker `TSLA`). It writes results to multiple buffers and flushes those buffers to multiple files once per second. The folder contains example output files as well.
+- This python script connects to several different websocket channels (greeks, flow alerts, and all option trades for ticker `TSLA`). It writes results to multiple buffers and flushes those buffers to multiple files once per second. The folder contains example output files as well.
+
+### Websocket: How to stream data from multiple channel and write to multiple outputs (javascript version)
+- `examples/ws-multi-channel-multi-output-nodejs`
+- Same as the above but implemented in javascript.
+
+### Spot Greek Exposure by Strike
+- `examples/spot-greek-exposure-by-strike`
+- This python script collects spot greek exposure data by strike for multiple tickers and strike ranges once per minute then writes all results to a SQLite database. The folder contains example output files and basic data exploration queries.
 
 ### Earnings and Institutional Holdings
 - `examples/earnings-with-known-institutional-holdings`
