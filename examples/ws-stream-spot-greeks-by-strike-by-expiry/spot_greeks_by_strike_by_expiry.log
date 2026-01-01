@@ -1,0 +1,47 @@
+2025-12-31 09:24:44,454|spot_greeks_by_strike_by_expiry|INFO|============================================================
+2025-12-31 09:24:44,454|spot_greeks_by_strike_by_expiry|INFO|Starting Spot Greeks Websocket Streamer
+2025-12-31 09:24:44,454|spot_greeks_by_strike_by_expiry|INFO|============================================================
+2025-12-31 09:24:44,517|spot_greeks_by_strike_by_expiry|INFO|Database initialized at spot_greeks_by_strike_by_expiry.duckdb
+2025-12-31 09:24:44,517|spot_greeks_by_strike_by_expiry|INFO|Connecting to websocket... (attempt 1)
+2025-12-31 09:24:44,672|spot_greeks_by_strike_by_expiry|INFO|Connected to websocket
+2025-12-31 09:24:44,673|spot_greeks_by_strike_by_expiry|INFO|Joined channel for ticker: SPY
+2025-12-31 09:24:44,673|spot_greeks_by_strike_by_expiry|INFO|Joined channel for ticker: NFLX
+2025-12-31 09:24:44,673|spot_greeks_by_strike_by_expiry|INFO|Joined channel for ticker: TSLA
+2025-12-31 09:24:44,673|spot_greeks_by_strike_by_expiry|INFO|Joined channel for ticker: GOOGL
+2025-12-31 09:24:44,690|spot_greeks_by_strike_by_expiry|DEBUG|Skipped non-data message: {'response': {}, 'status': 'ok'}
+2025-12-31 09:24:44,729|spot_greeks_by_strike_by_expiry|DEBUG|Skipped non-data message: {'response': {}, 'status': 'ok'}
+2025-12-31 09:24:44,729|spot_greeks_by_strike_by_expiry|DEBUG|Skipped non-data message: {'response': {}, 'status': 'ok'}
+2025-12-31 09:24:44,729|spot_greeks_by_strike_by_expiry|DEBUG|Skipped non-data message: {'response': {}, 'status': 'ok'}
+2025-12-31 09:24:57,064|spot_greeks_by_strike_by_expiry|INFO|Flushed 1 records to database
+2025-12-31 09:24:57,162|spot_greeks_by_strike_by_expiry|INFO|Flushed 500 records to database
+2025-12-31 09:24:57,237|spot_greeks_by_strike_by_expiry|INFO|Flushed 500 records to database
+2025-12-31 09:24:57,307|spot_greeks_by_strike_by_expiry|INFO|Flushed 500 records to database
+2025-12-31 09:24:57,381|spot_greeks_by_strike_by_expiry|INFO|Flushed 500 records to database
+2025-12-31 09:24:57,459|spot_greeks_by_strike_by_expiry|INFO|Flushed 500 records to database
+2025-12-31 09:25:08,342|spot_greeks_by_strike_by_expiry|INFO|Flushed 189 records to database
+2025-12-31 09:25:08,423|spot_greeks_by_strike_by_expiry|INFO|Flushed 500 records to database
+2025-12-31 09:25:08,504|spot_greeks_by_strike_by_expiry|INFO|Flushed 500 records to database
+2025-12-31 09:25:08,580|spot_greeks_by_strike_by_expiry|INFO|Flushed 500 records to database
+2025-12-31 09:25:10,215|spot_greeks_by_strike_by_expiry|INFO|Flushed 500 records to database
+2025-12-31 09:25:10,293|spot_greeks_by_strike_by_expiry|INFO|Flushed 500 records to database
+2025-12-31 09:25:10,382|spot_greeks_by_strike_by_expiry|INFO|Flushed 500 records to database
+2025-12-31 09:25:10,456|spot_greeks_by_strike_by_expiry|INFO|Flushed 500 records to database
+2025-12-31 09:25:10,528|spot_greeks_by_strike_by_expiry|INFO|Flushed 500 records to database
+2025-12-31 09:25:10,607|spot_greeks_by_strike_by_expiry|INFO|Flushed 500 records to database
+2025-12-31 09:25:10,681|spot_greeks_by_strike_by_expiry|INFO|Flushed 500 records to database
+2025-12-31 09:25:27,397|spot_greeks_by_strike_by_expiry|INFO|Flushed 309 records to database
+2025-12-31 09:25:38,537|spot_greeks_by_strike_by_expiry|INFO|Flushed 15 records to database
+2025-12-31 09:25:57,786|spot_greeks_by_strike_by_expiry|INFO|Flushed 304 records to database
+2025-12-31 09:25:57,868|spot_greeks_by_strike_by_expiry|INFO|Flushed 500 records to database
+2025-12-31 09:25:57,949|spot_greeks_by_strike_by_expiry|INFO|Flushed 500 records to database
+2025-12-31 09:25:58,025|spot_greeks_by_strike_by_expiry|INFO|Flushed 500 records to database
+2025-12-31 09:26:08,863|spot_greeks_by_strike_by_expiry|INFO|Flushed 166 records to database
+2025-12-31 09:26:08,956|spot_greeks_by_strike_by_expiry|INFO|Flushed 500 records to database
+2025-12-31 09:26:09,047|spot_greeks_by_strike_by_expiry|INFO|Flushed 500 records to database
+... more observations ...
+2025-12-31 09:50:10,950|spot_greeks_by_strike_by_expiry|INFO|Flushed 500 records to database
+2025-12-31 09:50:11,274|spot_greeks_by_strike_by_expiry|INFO|Flushed 500 records to database
+2025-12-31 09:50:11,492|spot_greeks_by_strike_by_expiry|INFO|Received signal 2, initiating graceful shutdown...
+2025-12-31 09:50:11,592|spot_greeks_by_strike_by_expiry|INFO|Flushed 500 records to database
+2025-12-31 09:50:24,686|spot_greeks_by_strike_by_expiry|INFO|Shutting down gracefully...
+2025-12-31 09:50:24,686|spot_greeks_by_strike_by_expiry|INFO|============================================================

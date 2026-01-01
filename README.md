@@ -9,6 +9,10 @@ A collection of heavily-commented sample scripts and notebooks demonstrating how
 
 ## Examples
 
+### Websocket: How to stream spot greeks by strike and by expiry to a local DuckDB database
+- `examples/ws-stream-spot-greeks-by-strike-by-expiry`
+- This python scripts connects to a few `gex_strike_expiry:{ticker}` websocket channels and streams all spot greek exposures (by strike and by expiry) to a buffer then flushing to the DuckDB database once every 500 records or every 10 seconds, whichever comes first. The folder contains example output files as well.
+
 ### Websocket: How to stream flow alerts into a local SQLite database
 - `examples/ws-stream-flow-alerts-to-sqlite`
 - This python script connects to the `flow-alerts` websocket channel and streams all Flow Alerts to a buffer and flushing to a SQLite database once per second. The folder contains example output files as well.

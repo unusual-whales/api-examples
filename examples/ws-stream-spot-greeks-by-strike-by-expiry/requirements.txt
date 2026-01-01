@@ -1,0 +1,4 @@
+websockets
+duckdb
+pyarrow
+python-dotenv
