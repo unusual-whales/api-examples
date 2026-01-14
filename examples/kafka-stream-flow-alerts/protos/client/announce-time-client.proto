@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum AnnounceTime {
+    Premarket = 0;
+    Postmarket = 1;
+    Unknown = 2;
+}

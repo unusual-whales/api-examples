@@ -1,0 +1,318 @@
+Key: flow-alert
+Decoded Message:
+{
+  "rule_id": "e6b9f0b6-fcd9-44fe-9d1c-f53521c152c3",
+  "ticker": "RDDT",
+  "option_chain": "RDDT260109C00265000",
+  "underlying_price": 256.13,
+  "volume": "368",
+  "total_size": 110,
+  "total_premium": 26290.0,
+  "total_bid_side_prem": 26290.0,
+  "start_time": "1767799940925",
+  "end_time": "1767799940941",
+  "price": 2.39,
+  "has_sweep": true,
+  "open_interest": 753,
+  "id": "bb642f33-1739-469c-8714-d582f8c8b71a",
+  "has_singleleg": true,
+  "volume_oi_ratio": 0.48871181938911024,
+  "trade_ids": [
+    "aedef695-5e3a-427a-930f-c3e6e7b9974b",
+    "1cffc17a-053d-464d-b214-deb71614e440",
+    "eac8d7b6-82bb-47a7-a0b1-9c65a08b5891",
+    "80d9b02c-2fee-471a-9c46-e109931be47f",
+    "b5bcc6ef-60f4-4006-9daa-38d7fd2a831e",
+    "ea920e16-fa84-49dd-8300-1109650c3c7c",
+    "f9c7a614-9022-4253-ac20-2d53bcf2dd82",
+    "e1bcc9b4-6d6b-447d-9e10-64af8062b7fd",
+    "bc4881de-b4e0-4e45-a7c3-f680b3e3bea8",
+    "ea4f2328-ee5a-4205-a1ca-c8e6d43034ab",
+    "678adfaa-7ee4-4be9-88d4-2acb11c8d66f",
+    "cd5462d7-a353-4e91-849c-8ff012d55303",
+    "2db2564d-967e-4b7a-b00d-62ac5fd6be8b",
+    "5cb6e883-ccf8-441c-a894-e71b55678a1c",
+    "4c77cb5f-7b39-46f5-9555-e87b19a7b67b",
+    "07db3709-0be3-47cf-ba53-b5461402e6d1",
+    "567dc4ce-77c9-45ee-b542-4342356309b1",
+    "88bca232-66df-4a22-a9be-ee33ff0081a4",
+    "6da4ecac-6808-45b9-a2bb-0c50c34acdf6",
+    "330b975f-8bce-4bfa-9b30-fd5d890bc527",
+    "61296ce7-2582-41fb-9c85-aba9805d6427",
+    "f036d0bd-210d-4ae2-8155-81dd71dbce42",
+    "25e0f146-776a-4558-b423-9b94fd92682f",
+    "194243aa-cc20-41b8-b377-7ab13686aaa6",
+    "98dc13f2-a74b-4689-a699-39636073c19f",
+    "af24173c-2f91-4927-a3a0-c8f2af3cf52d",
+    "f500e469-5f23-4f88-a01a-2ed75e03697a",
+    "e1641e7b-2796-445f-9342-e59f34e83116",
+    "866f90de-54b2-41f8-a70c-0ef2f32612a5",
+    "1e1dc50d-9dd3-4d68-bade-e95ad1b8f1f0",
+    "66945564-b6a6-4514-9df7-6320952b5085",
+    "db84f5bf-dd8a-4e81-850b-ef65a28b0330",
+    "0ed814c1-4c4c-4d12-ab17-89ebf90d2b2d"
+  ],
+  "trade_count": 33,
+  "expiry_count": 1,
+  "executed_at": "1767799940941",
+  "ask_vol": "115",
+  "bid_vol": "233",
+  "mid_vol": "20",
+  "multi_vol": "32",
+  "upstream_condition_details": [
+    "auto",
+    "isoi"
+  ],
+  "exchanges": [
+    "GMNI",
+    "EMLD",
+    "SPHR",
+    "ARCO",
+    "BATO",
+    "C2OX",
+    "EDGO",
+    "XBXO",
+    "MXOP",
+    "XNDQ",
+    "XCBO",
+    "XMIO",
+    "XPHO",
+    "MPRL",
+    "MCRY",
+    "XBOX",
+    "XISX"
+  ],
+  "bid": "2.39",
+  "ask": "2.61"
+}
+------------------------
+Key: flow-alert
+Decoded Message:
+{
+  "rule_id": "a0979b52-28e4-4585-8f22-881faad2dd8e",
+  "ticker": "INTC",
+  "option_chain": "INTC260116P00045000",
+  "underlying_price": 44.35,
+  "volume": "1144",
+  "total_size": 752,
+  "total_premium": 165437.0,
+  "total_ask_side_prem": 220.0,
+  "total_bid_side_prem": 165217.0,
+  "start_time": "1767799943588",
+  "end_time": "1767799943589",
+  "price": 2.2,
+  "open_interest": 596,
+  "id": "69e76c0a-9b8c-4b70-ab56-5fed39de52a5",
+  "has_singleleg": true,
+  "volume_oi_ratio": 1.919463087248322,
+  "trade_ids": [
+    "5f251479-c448-4b0f-9963-d83a21c3a0b4",
+    "57b589f1-ef6e-4189-8a84-2f979e6f2cf1",
+    "d4c7288d-2a0e-4c92-bb62-0dd9719c2e01",
+    "e2fd33b2-a136-49a4-803a-9b4975e955b4",
+    "fe0a351d-fd5c-4db4-bde9-a8f688ecd1cf",
+    "e6e4ebd4-25b7-4494-a72a-b2d4efa9a8e3",
+    "916a4c7c-b37f-4e35-9535-a78be675624b"
+  ],
+  "trade_count": 7,
+  "expiry_count": 1,
+  "executed_at": "1767799943589",
+  "ask_vol": "179",
+  "bid_vol": "961",
+  "mid_vol": "4",
+  "multi_vol": "36",
+  "upstream_condition_details": [
+    "auto"
+  ],
+  "exchanges": [
+    "BATO",
+    "C2OX",
+    "MPRL",
+    "XNDQ"
+  ],
+  "bid": "2.18",
+  "ask": "2.25"
+}
+------------------------
+Key: flow-alert
+Decoded Message:
+{
+  "rule_id": "a0979b52-28e4-4585-8f22-881faad2dd8e",
+  "ticker": "ROKU",
+  "option_chain": "ROKU260220C00110000",
+  "underlying_price": 108.8,
+  "volume": "51",
+  "total_size": 20,
+  "total_premium": 16990.0,
+  "total_bid_side_prem": 16990.0,
+  "start_time": "1767799948979",
+  "end_time": "1767799949013",
+  "price": 8.5,
+  "open_interest": 2893,
+  "id": "d74e5476-0f20-4a2e-a71f-bcef6a9ea905",
+  "has_singleleg": true,
+  "volume_oi_ratio": 0.017628759073625995,
+  "trade_ids": [
+    "4548ebe6-3791-46a9-8004-6410df2dc9f2",
+    "ec04c746-02bb-4782-b100-881e3b217631",
+    "aa306ec2-a048-47d6-a829-ac0f49c770bd",
+    "8565a7d6-e73a-40c3-86f8-110464a6cec2",
+    "aa71ec3e-d481-4f8f-91f5-2c3f2b8b02fa",
+    "cea3230c-c507-43b5-8fbf-ca6ea54c44a8"
+  ],
+  "trade_count": 6,
+  "expiry_count": 1,
+  "executed_at": "1767799949013",
+  "ask_vol": "12",
+  "bid_vol": "39",
+  "multi_vol": "13",
+  "upstream_condition_details": [
+    "auto"
+  ],
+  "exchanges": [
+    "ARCO"
+  ],
+  "bid": "8.325",
+  "ask": "8.65"
+}
+------------------------
+Key: flow-alert
+Decoded Message:
+{
+  "rule_id": "e6b9f0b6-fcd9-44fe-9d1c-f53521c152c3",
+  "ticker": "CDE",
+  "option_chain": "CDE260320C00022500",
+  "underlying_price": 18.2887,
+  "volume": "422",
+  "total_size": 115,
+  "total_premium": 16675.0,
+  "total_ask_side_prem": 16675.0,
+  "start_time": "1767799954470",
+  "end_time": "1767799954505",
+  "price": 1.45,
+  "has_sweep": true,
+  "open_interest": 9424,
+  "id": "b1c11fc0-d0ee-4126-ae59-5d2e752d4b67",
+  "has_singleleg": true,
+  "volume_oi_ratio": 0.044779286926994906,
+  "trade_ids": [
+    "b1e71f14-9f53-4dbc-b139-eafb18a22437",
+    "127b7761-b0c3-4805-a7b7-a62e28248c37",
+    "8d00e960-f15a-48fd-96b9-2fb99623510a",
+    "18212aeb-b7be-43f2-8a1b-c6f59caa4659",
+    "0ad6414e-fe10-4569-a9dd-1c1ce478c809",
+    "e851eb20-7a66-49b3-b8c0-59b3cac4f584",
+    "4fba1d66-2bf3-4acb-a7c3-66570b03bcc0"
+  ],
+  "trade_count": 7,
+  "expiry_count": 1,
+  "executed_at": "1767799954505",
+  "ask_vol": "140",
+  "bid_vol": "192",
+  "mid_vol": "90",
+  "upstream_condition_details": [
+    "isoi"
+  ],
+  "exchanges": [
+    "SPHR",
+    "ARCO",
+    "MXOP",
+    "MPRL",
+    "XNDQ",
+    "XBOX"
+  ],
+  "bid": "1.4",
+  "ask": "1.45"
+}
+------------------------
+Key: flow-alert
+Decoded Message:
+{
+  "rule_id": "e6b9f0b6-fcd9-44fe-9d1c-f53521c152c3",
+  "ticker": "SLV",
+  "option_chain": "SLV260206C00077000",
+  "underlying_price": 70.215,
+  "volume": "201",
+  "total_size": 120,
+  "total_premium": 39000.0,
+  "total_ask_side_prem": 39000.0,
+  "start_time": "1767799954951",
+  "end_time": "1767799954952",
+  "price": 3.25,
+  "open_interest": 507,
+  "id": "47750cfd-5cd9-4950-b6e7-85724d84c41e",
+  "has_singleleg": true,
+  "volume_oi_ratio": 0.39644970414201186,
+  "trade_ids": [
+    "8f7785e8-dac9-4e85-89ad-39d4bdc33b5c",
+    "9f8ce0ad-489a-43d5-adcd-446587d02ee7",
+    "4368a1bb-afba-4717-b5da-474f0e31beba",
+    "bd5c0cdb-35d6-40fb-ac19-bc35e6d45dc8",
+    "e362de79-c1a7-4ad3-b04e-70c314e41c9f",
+    "8c365ff8-ce54-4265-986d-efb825b92635",
+    "752d06ba-8ce8-4aca-9148-74c55db5a4f0"
+  ],
+  "trade_count": 7,
+  "expiry_count": 1,
+  "executed_at": "1767799954952",
+  "ask_vol": "130",
+  "bid_vol": "37",
+  "mid_vol": "34",
+  "multi_vol": "14",
+  "upstream_condition_details": [
+    "auto"
+  ],
+  "exchanges": [
+    "SPHR",
+    "EDGO",
+    "XBXO",
+    "MCRY",
+    "AMXO"
+  ],
+  "bid": "3.2",
+  "ask": "3.25"
+}
+------------------------
+Key: flow-alert
+Decoded Message:
+{
+  "rule_id": "e6b9f0b6-fcd9-44fe-9d1c-f53521c152c3",
+  "ticker": "XOP",
+  "option_chain": "XOP271217P00110000",
+  "underlying_price": 124.73,
+  "volume": "10",
+  "total_size": 10,
+  "total_premium": 11750.0,
+  "total_ask_side_prem": 11750.0,
+  "start_time": "1767799958908",
+  "end_time": "1767799958909",
+  "price": 11.75,
+  "open_interest": 1037,
+  "id": "225ad39f-d37c-4e5e-8bbe-3d06271bd5ea",
+  "has_singleleg": true,
+  "volume_oi_ratio": 0.009643201542912247,
+  "trade_ids": [
+    "2348fb48-78f0-42f8-86cf-9fea7c4ff1e0",
+    "2de14109-4439-4ffc-b33f-62fd81936f24",
+    "a3058768-b8ed-493b-bfe1-e07203478317",
+    "3fcfbf73-7a24-481e-9b6e-d7a2ed4b954e",
+    "e770e72f-6e29-41d8-bd18-092bfecf76f2",
+    "ff2f97f5-b00a-43c5-a884-8f247bf7e688",
+    "860b8837-dfc3-402b-a55d-af45ddaeb26b",
+    "790f425c-0683-4552-aac9-2b65589fd54b",
+    "df7f7315-492f-4b75-a6e2-03a077227c16",
+    "2889efe2-0567-44ce-9d1b-62d99b6d11bf"
+  ],
+  "trade_count": 10,
+  "expiry_count": 1,
+  "executed_at": "1767799958909",
+  "ask_vol": "10",
+  "upstream_condition_details": [
+    "auto"
+  ],
+  "exchanges": [
+    "ARCO"
+  ],
+  "bid": "10.15",
+  "ask": "11.75"
+}

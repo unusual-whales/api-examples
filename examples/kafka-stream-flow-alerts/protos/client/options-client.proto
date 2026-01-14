@@ -1,0 +1,41 @@
+syntax = "proto3";
+
+message OptionTrade {
+  // Unique UUID for the trade
+  string id = 1;
+  string underlying_symbol = 2;
+  int64 executed_at = 3;
+  string nbbo_bid = 4;
+  string nbbo_ask = 5;
+  int32 size = 6;
+  string price = 7;
+  int64 created_at = 10;
+  repeated string report_flags = 11;
+  repeated string tags = 12;
+  string expiry = 13;
+  string option_type = 14;
+  int32 open_interest = 15;
+  string strike = 16;
+  string premium = 17;
+  int64 volume = 19;
+  string underlying_price = 20;
+  string ewma_nbbo_ask = 21;
+  string ewma_nbbo_bid = 22;
+  string implied_volatility = 23;
+  string delta = 24;
+  string theta = 25;
+  string gamma = 26;
+  string vega = 27;
+  string rho = 28;
+  string theo = 29;
+  string exchange = 32;
+  int64 ask_vol = 33;
+  int64 bid_vol = 34;
+  int64 no_side_vol = 35;
+  int64 mid_vol = 36;
+  int64 multi_vol = 37;
+  int64 stock_multi_vol = 38;
+  int32 option_symbol_id = 39;
+  int32 ticker_id = 40;
+  int32 root_ticker_id = 41;
+}

@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+import "date-client.proto";
+import "issue-type-client.proto";
+import "announce-time-client.proto";
+import "sector-client.proto";
+import "decimal-client.proto";
+
+message TickerInfo {
+    optional Date next_earnings_date = 1;
+    optional Date next_dividend_date = 2;
+    optional IssueType issue_type = 3;
+    optional AnnounceTime announce_time = 4;
+    optional string industry_type = 5;
+    optional Sector sector = 6;
+    optional Decimal marketcap = 7;
+    optional Decimal week52_high_split_adjustonly = 8;
+    optional Decimal week52_low_split_adjustonly = 9;
+    optional Decimal avg30_volume = 10;
+    bool has_options = 11;
+    optional Decimal call_vol_30d = 12;
+    optional Decimal put_vol_30d = 13;
+}

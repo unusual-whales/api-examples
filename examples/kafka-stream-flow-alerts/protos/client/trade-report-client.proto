@@ -1,0 +1,101 @@
+syntax = "proto3";
+
+import "ticker-info-client.proto";
+
+enum TradeSettlement {
+  REGULAR_SETTLEMENT = 0;
+  CASH_SETTLEMENT = 1;
+  NEXT_DAY_SETTLEMENT = 2;
+  SELLER_SETTLEMENT = 3;
+}
+
+enum TradeCodes {
+  INTERMARKET_SWEEP = 0;
+  OPENING_PRINT = 1;
+  DERIVATIVE_PRICED = 2;
+  RE_OPENING_PRINT = 3;
+  CLOSING_PRINT = 4;
+  QUALIFIED_CONTINGENT_TRADE = 5;
+  TRADE_CODES_EMPTY = 6;
+  TC_EMPTY = 7;
+}
+
+enum ExthourSoldCodes {
+  EXTENDED_HOURS_TRADE = 0;
+  EXTENDED_HOURS_TRADE_LATE_OR_OUT_OF_SEQUENCE = 1;
+  SOLD_LAST = 2;
+  SOLD_OUT_OF_SEQUENCE = 3;
+  EXTHOUR_SOLD_CODES_EMPTY = 4;
+  ESC_EMPTY = 5;
+}
+
+enum SpecialSaleConditionsCodes {
+  ACQUISITION = 0;
+  BUNCHED = 1;
+  DISTRIBUTION = 2;
+  PRICE_VARIATION_TRANSACTION = 3;
+  NASDAQ_OFFICIAL_CLOSE_PRICE = 4;
+  PRIOR_REFERENCE_PRICE = 5;
+  NASDAQ_OFFICIAL_OPENING_PRICE = 6;
+  SPLIT_TRADE = 7;
+  CONTINGENT_TRADE = 8;
+  AVERAGE_PRICE_TRADE = 9;
+  CROSS_TRADE = 10;
+  ODD_LOT_EXECUTION = 11;
+  ODD_LOT_CROSS_EXECUTION = 12;
+  SPECIAL_SALE_CONDITIONS_CODES_EMPTY = 13;
+  SSC_EMPTY = 14;
+}
+
+message TradeReport {
+  string symbol = 1;
+  // The market center where the trade executed.
+  // Can be one of:
+  // 1. Q => Nasdaq Stock Market (lit)
+  // 2. L or 2 => TRF (dark pool/off lit)
+  // 3. B or X => lit
+  string market_center = 2;
+  string security_class = 3;
+  string control_number = 4;
+  // The price at which the trade executed
+  string price = 5;
+  // The size of the trade. At the time of writing this
+  // there are no fractional trades but they are planned to go live
+  // this year (2026). In that case the protobuf will be extended with
+  // a new field that will have the fractional shares value.
+  int32 size = 6;
+  // The consolidated volume across all market places till now. 
+  // This volume represents the total volume you see across websites, 
+  // tv and on your broker.
+  int64 volume = 7;
+  // The time at which the trade executed in milliseconds since 1970 (unix)
+  int64 executed_at = 12;
+  // Internal tracking id of the trade
+  int64 tracking_id = 13;
+  // The bid at the time of the trade. Note that when TRF trades 
+  // are being pushed the BID does not represent the bid at the time
+  // of the TRF (off lit) trade but rather the bid at the time the TRF trade
+  // hit the tape.
+  string nbbo_bid = 15;
+  // The ask at the time of the trade. Note that when TRF trades 
+  // are being pushed the BID does not represent the ask at the time
+  // of the TRF (off lit) trade but rather the ask at the time the TRF trade
+  // hit the tape.
+  string nbbo_ask = 16;
+  int64 nbbo_bid_quantity = 17;
+  int64 nbbo_ask_quantity = 18;
+  // A boolean flag whether this trade is eligible for updating the open,
+  // high, low and close of a stock for the trading day. If you are using this data
+  // to build the daily OHLC of a stock live then you need to respect this flag
+  // as there is a lot of trades that are not eligible for updating the OHLC data.
+  bool updates_high_low = 19;
+  TradeSettlement trade_settlement_enum = 20;
+  TradeCodes trade_code_enum = 21;
+  ExthourSoldCodes ext_hour_sold_codes_enum = 22;
+  SpecialSaleConditionsCodes sale_cond_codes_enum = 23;
+  // Internal unique ID for the given ticker at UW.
+  int32 ticker_id = 24;
+  int64 trf_executed_at = 25;
+  // Information about the ticker such as sector, industry, next earnings date and more.
+  TickerInfo ticker_info = 26;
+}

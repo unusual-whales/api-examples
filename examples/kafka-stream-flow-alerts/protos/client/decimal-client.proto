@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message Decimal {
+  uint64 lo = 1;
+  uint32 hi = 2;
+  uint32 scale = 3;
+  bool negative = 4;
+}

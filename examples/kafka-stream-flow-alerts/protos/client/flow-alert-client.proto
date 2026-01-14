@@ -1,0 +1,80 @@
+syntax = "proto3";
+
+message FlowAlert {
+    /// UUID that represents for the rule for which the alert triggered
+    string rule_id = 1;
+    string ticker = 2;
+    // OptionSymbol in the OSI format, SPY241227C00480000
+    string option_chain = 3;
+    double underlying_price = 4;
+    // The total market volume of the option symbol
+    // at the point of when the alert got created.
+    int64 volume = 5;
+    // The total aggregated size of all transactions
+    // that make up this alert.
+    int32 total_size = 6;
+    // The total aggregated premium of all transactions
+    // that make up this alert.
+    double total_premium = 7;
+    // The total aggregated ask premium 
+    // (meaning all trades that executed closer to the ask than bid)
+    // of all transactions that make up this alert.
+    double total_ask_side_prem = 8;
+    // The total aggregated bid premium 
+    // (meaning all trades that executed closer to the bid than ask)
+    // of all transactions that make up this alert.
+    double total_bid_side_prem = 9;
+    // The start time of the window of the alert
+    int64 start_time = 10;
+    // The end time of the window of the alert
+    int64 end_time = 11;
+    // the price of the contract
+    double price = 13;
+    // Boolean flag whether any transaction was part of a multi leg transaction
+    bool has_multileg = 14;
+    // Boolean flag whether any transaction was a iso sweep
+    bool has_sweep = 15;
+    // Boolean flag whether any transaction orginiated from the trading floor
+    bool has_floor = 16;
+    // The OI of the chain
+    int32 open_interest = 17;
+    // Boolean flag whether all trades are guranteed to be 
+    // executed to be opened. Opened is defined as when for each transaction the size > OI - (vol - size)
+    // If this flag is false that means we simply do not know whether the trade was buy to open/close or 
+    // sell to open/close
+    bool all_opening_trades = 18;
+    // Unique UUID of the alert.
+    string id = 19;
+    bool has_singleleg = 20;
+    double volume_oi_ratio = 21;
+    // The individual transaction ids that made up the alert as UUIDs. 
+    // If you are also consuming the topic all-option-trades you can use
+    // those UUIDs to match the alert to the given single transactions and link them.
+    repeated string trade_ids = 22;
+    // Count of trades that made up this alert
+    int32 trade_count = 23;
+    // Count of unique expirations
+    int32 expiry_count = 24;
+    // Last executed timestamp of all transactions
+    int64 executed_at = 25;
+    // The sum of all sizes of the transactions where they executed closer to ask
+    int64 ask_vol = 26;
+    // The sum of all sizes of the transactions where they executed closer to bid
+    int64 bid_vol = 27;
+    // The sum of all sizes of the transactions where they were classified as no side
+    int64 no_side_vol = 28;
+    // The sum of all sizes of the transactions where they executed at mid
+    int64 mid_vol = 29;
+    // The sum of all sizes of the transactions that were part of a muti leg trade
+    int64 multi_vol = 30;
+    // The sum of all sizes of the transactions that were part of a stock muti leg trade
+    int64 stock_multi_vol = 31;
+    // All unique trade codes of the individual transactions
+    repeated string upstream_condition_details = 32;
+    // All unique exchanges on which the individual transactions executed
+    repeated string exchanges = 33;
+    // Latest bid of the chain
+    string bid = 34;
+    // Latest ask of the chain
+    string ask = 35;
+}

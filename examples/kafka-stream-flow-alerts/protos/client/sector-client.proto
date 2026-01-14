@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+enum Sector {
+    BasicMaterials = 0;
+    CommunicationServices = 1;
+    ConsumerCyclical = 2;
+    ConsumerDefensive = 3;
+    Energy = 4;
+    FinancialServices = 5;
+    Healthcare = 6;
+    Industrials = 7;
+    RealEstate = 8;
+    Technology = 9;
+    Utilities = 10;
+}

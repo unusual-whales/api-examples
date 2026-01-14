@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+enum IssueType {
+    Adr = 0;
+    CommonStock = 1;
+    Etf = 2;
+    Other = 3;
+    PreferredStock = 4;
+    Right = 5;
+    StructuredProduct = 6;
+    Unit = 7;
+    Warrant = 8;
+    Index = 9;
+}

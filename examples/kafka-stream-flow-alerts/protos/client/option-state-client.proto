@@ -1,0 +1,103 @@
+syntax = "proto3";
+
+message OptionState {
+  // The option symbol in OSI format SPY241227C00480000
+  string option_symbol = 1;
+  string nbbo_ask = 3;
+  int64 nbbo_ask_size = 4;
+  string nbbo_bid = 5;
+  int64 nbbo_bid_size = 6;
+  // Timestamp in milliseconds that this data represents
+  int64 last_tape_time = 7;
+  // The trading date in YYYY-MM-DD format
+  string date = 8;
+  // The OI of the chain
+  int32 open_interest = 9;
+  // The cumulative volume for the day till this tape time.
+  // Note the volume between 2 ticks can be lower and does not necessary
+  // increase all the time if there was a cancel. 
+  // A chain might have 10,000 volume at 9:32 and then at 9:33
+  // it might have 8,000 volume as a transaction with the size of 2,000
+  // had been canceled. The canceled volume is also tracked in the canceled field.
+  int64 volume = 10;
+  // The expiry of the chain in YYYY-MM-DD
+  string expires = 11;
+  // The option type either call or put
+  string option_type = 12;
+  // The ticker of the chain. Note this is not the root symbol:
+  // For instance for NDXP260116C25250000 the underlying symbol would be
+  // NDXP and not NDX. 
+  string underlying_symbol = 13;
+  // The strike as a decimal number. 
+  string strike = 14;
+  // The highest price at which there was a trade for the chain
+  // for the current trading day
+  string high_price = 15;
+  // The lowest price at which there was a trade for the chain
+  // for the current trading day
+  string low_price = 16;
+  // The last price at which a trade executed for this chain
+  string last_price = 17;
+  string implied_volatility = 18;
+  string delta = 19;
+  string theta = 20;
+  string gamma = 21;
+  string vega = 22;
+  string rho = 23;
+  string theo = 24;
+  string iv_low = 25;
+  string iv_high = 26;
+  // Total amount of volume that came based on trade codes from the floor. 
+  // If there is a canceled transaction this field is as of now not being adjusted.
+  int64 floor_volume = 27;
+  // Total amount of volume that based on trade codes was part of a multi leg trade.
+  // If there is a canceled transaction this field is as of now not being adjusted.
+  int64 multi_leg_volume = 28;
+  // Total amount of volume that based on trade codes was part of a stock multi leg trade.
+  // If there is a canceled transaction this field is as of now not being adjusted.
+  int64 stock_multi_leg_volume = 29;
+  // Total amount of volume that based on trade codes was part of a cross trade.
+  // If there is a canceled transaction this field is as of now not being adjusted.
+  int64 cross_volume = 30;
+  // Total amount of volume that based on trade codes was based on sweep transactions.
+  // If there is a canceled transaction this field is as of now not being adjusted.
+  int64 sweep_volume = 31;
+  // Count of all transactions
+  int64 trades = 32;
+  // Total amount of volume that transacted on the ask side of the spread.
+  // If there is a canceled transaction this field is as of now not being adjusted.
+  int64 ask_volume = 33;
+  // Total amount of volume that transacted on the bid side of the spread.
+  // If there is a canceled transaction this field is as of now not being adjusted.
+  int64 bid_volume = 34;
+  // Total amount of volume that transacted on the mid side of the spread.
+  // If there is a canceled transaction this field is as of now not being adjusted.
+  int64 mid_volume = 35;
+  // Total amount of volume that has been marked as neutral (cross, out of sequence, late)
+  // If there is a canceled transaction this field is as of now not being adjusted.
+  int64 neutral_volume = 36;
+  // Total amount of NBBO bid changes of this chain. This can be used
+  // as a potential volatility proxy.
+  int64 total_bid_changes = 37;
+  // Total amount of NBBO ask changes of this chain. This can be used
+  // as a potential volatility proxy.
+  int64 total_ask_changes = 38;
+  // Total amount of volume of transactions that had been canceled
+  int64 canceled_volume = 39;
+  // Total amount of premium that transacted
+  string total_premium = 40;
+  // Volume weighted avg price of all transactions
+  string avg_price = 41;
+  // The first price at which a trade transacted for this chain.
+  string open_price = 42;
+  // Unique id for the option symbol
+  int32 option_symbol_id = 43;
+  // Unique id for the underlying symbol. These IDs are consistent
+  // across different topics and can be used to merge data together. 
+  int32 ticker_id = 44;
+  // Unique ID for the root ticker. In most cases root_ticker_id 
+  // will be the same as ticker_id but for chains like 
+  // SPXW260109P06810000 ticker_id would be the ID for SPXW and
+  // root_ticker_id would be the id for SPX.
+  int32 root_ticker_id = 45;
+}
